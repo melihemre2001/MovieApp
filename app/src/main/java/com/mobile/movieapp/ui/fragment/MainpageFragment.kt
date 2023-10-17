@@ -14,8 +14,9 @@ import com.mobile.movieapp.data.entity.Movies
 import com.mobile.movieapp.databinding.FragmentMainpageBinding
 import com.mobile.movieapp.ui.adapter.MoviesAdapter
 import com.mobile.movieapp.ui.viewmodel.MainpageViewModel
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class MainpageFragment : Fragment() {
 
     private lateinit var binding : FragmentMainpageBinding
